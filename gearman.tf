@@ -7,7 +7,7 @@ provider "aws" {
 
 resource "aws_key_pair" "gearman_key" {
   key_name  				 = "gearman_live-key"
-  public_key 				 = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzTZu0y/vmoOmdrbIKBhx1uDRk1JfD/aW+jFjqx++vD8NEYxtcrsSocFMJrBtkpwPTU9OfA9XtJEu01T6SgW2espqul0v98pHzSGfMCOabU5tzAGyW5Y+p1+pTeG3FfAQo8qLgRBnfIs0mjrh1dcsLCBr9B39jvhge5JEx7YJdAWBSLi6ra07t5o04rTu9wJAuXAZ1MM0m5K6fo7vbdUVu7GgJS82VOC1T/1uuVA5NDmGSFVkkmuEBvpsX8kS2anlk0gU9GPwTJbp3dk6ydHySB3XOZiacXYqwNAK9mktPOrh5WqJ/vUZSjtOsPhDtkStmJMLmqCCn0kUZMyGhlhkj ubuntu@jerryme2020"
+  public_key 				 = "Rsa key "
 }
 
 
